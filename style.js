@@ -8,6 +8,8 @@ let metin =
     + "Lütfen bir değer seçiniz.";
 let kullanici = prompt(metin);
 
+
+if (kullanici !== null) kullanici = kullanici.trim();
 switch (kullanici) {
     case "1":
         alert("Bakiyeniz:" + " " + bakiye)
